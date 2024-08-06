@@ -18,3 +18,6 @@ static string[] RandomSubset(string[] inputArray)
             randomSubset.Add(inputArray[randomIndex]);
         }
     }
+
+      return randomSubset.ToArray();
+}
