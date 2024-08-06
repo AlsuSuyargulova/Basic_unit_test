@@ -9,3 +9,6 @@ static string[] RandomSubset(string[] inputArray)
     Random random = new Random();
     int subsetLength = random.Next(0, 4);
     List<string> randomSubset = new List<string>();
+
+    for (int i = 0; i < subsetLength; i++)
+    {
