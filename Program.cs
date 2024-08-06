@@ -12,3 +12,9 @@ static string[] RandomSubset(string[] inputArray)
 
     for (int i = 0; i < subsetLength; i++)
     {
+        if (inputArray.Length > 0)
+        {
+            int randomIndex = random.Next(0, inputArray.Length);
+            randomSubset.Add(inputArray[randomIndex]);
+        }
+    }
