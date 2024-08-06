@@ -7,3 +7,5 @@ Console.WriteLine("Result Array: " + string.Join(", ", resultArray));
 static string[] RandomSubset(string[] inputArray)
 {
     Random random = new Random();
+    int subsetLength = random.Next(0, 4);
+    List<string> randomSubset = new List<string>();
